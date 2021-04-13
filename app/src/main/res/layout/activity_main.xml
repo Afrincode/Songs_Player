@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/pop"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:background="@color/colorAccent"
+        android:gravity="clip_horizontal|center|center_horizontal"
+        android:onClick="poplist"
+        android:text="Pop Songs"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/cool"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:background="#90EA27"
+        android:gravity="clip_horizontal|center"
+        android:onClick="coollist"
+        android:text="Cool Songs"
+        android:textSize="24sp" />
+
+</LinearLayout>

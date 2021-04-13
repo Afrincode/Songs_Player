@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/list_item_id"
+    android:orientation="horizontal"
+    android:minHeight="@dimen/list_item_height"
+    >
+
+    <ImageView
+        android:id="@+id/imageVView"
+        android:layout_width="66dp"
+        android:layout_height="52dp"
+        android:src="@drawable/whole_lotta_love" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:orientation="vertical"
+        android:paddingLeft="16dp">
+
+        <TextView
+            android:id="@+id/song_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:text="song_name"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textSize="16sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/author_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:text="author"
+            android:textSize="13sp"></TextView>
+    </LinearLayout>
+
+</LinearLayout>
